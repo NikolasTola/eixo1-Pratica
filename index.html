@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/ficha.css">
+    <link rel="icon" href="icones/icon.png" type="image/png">
+    <title>Ficha</title>
+  </head>
+  <body>
+    <img src="icones/open.png" id="botaoAdicionar" alt="">
+    <div id="ficha">
+      <div id="cabecalho">
+        <img src="icones/close.png" id="botaoFechar" draggable=false alt="">
+        <p></p>
+      </div>
+
+      <h1 id="nome">Nome</h1>
+      <h1 id="cargo">Cargo</h1>
+
+      <div id="campoFoto">
+        <label class="picture" for="picture__input">
+          <span class="picture__image"></span>
+        </label>
+        <input type="file" accept="image/*" id="picture__input"/>
+      </div>
+
+      <input id="inputNome" type="text" placeholder="NOME" minlength="0" maxlength="15">
+      <input id="inputCargo" type="text" placeholder="CARGO" minlength="0" maxlength="15">
+
+      <div id="softSkills">
+
+        <h1 class="titulos">Soft Skills</h1>
+
+        <div class="softSkillsGrupo">
+          <h2 id="softSkill1" class="softSkills">COMUNICAÇÃO:</h2>
+
+          <input class="valorSoftSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="softGrafico" id="softGraf1">
+            <h2></h2>
+          </div>
+        </div>
+
+
+        <div class="softSkillsGrupo">
+          <h2 id="softSkill2" class="softSkills">CONVIVÊNCIA:</h2>
+
+          <input class="valorSoftSkill" type="Number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="softGrafico" id="softGraf2">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="softSkillsGrupo">
+          <h2 id="softSkill3" class="softSkills">FOCO:</h2>
+
+          <input class="valorSoftSkill" type="Number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="softGrafico" id="softGraf3">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="softSkillsGrupo">
+          <h2 id="softSkill4" class="softSkills">TRAB EQUIPE:</h2>
+
+          <input class="valorSoftSkill" type="Number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="softGrafico" id="softGraf4">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="softSkillsGrupo">
+          <h2 id="softSkill5" class="softSkills">PROATIVO:</h2>
+
+          <input class="valorSoftSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="softGrafico" id="softGraf5">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="softSkillsGrupo">
+          <h2 id="softSkill6" class="softSkills">PONTUAL:</h2>
+
+          <input class="valorSoftSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="softGrafico" id="softGraf6">
+            <h2></h2>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div id="hardSkills">
+
+        <h1 class="titulos">Hard Skills</h1>
+
+        <div class="hardSkillsGrupo">
+          <h2 id="hardSkill1" class="hardSkills">HardSkill 1:</h2>
+
+          <input class="valorHardSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="hardGrafico" id="hardGraf1">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="hardSkillsGrupo">
+          <h2 id="hardSkill2" class="hardSkills">HardSkill 2:</h2>
+
+          <input class="valorHardSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="hardGrafico" id="hardGraf2">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="hardSkillsGrupo">
+          <h2 id="hardSkill3" class="hardSkills">HardSkill 3:</h2>
+
+          <input class="valorHardSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="hardGrafico" id="hardGraf3">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="hardSkillsGrupo">
+          <h2 id="hardSkill4" class="hardSkills">HardSkill 4:</h2>
+
+          <input class="valorHardSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="hardGrafico" id="hardGraf4">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="hardSkillsGrupo">
+          <h2 id="hardSkill5" class="hardSkills">HardSkill 5:</h2>
+
+          <input class="valorHardSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="hardGrafico" id="hardGraf5">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="hardSkillsGrupo">
+          <h2 id="hardSkill6" class="hardSkills">HardSkill 6:</h2>
+
+          <input class="valorHardSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="hardGrafico" id="hardGraf6">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="hardSkillsGrupo">
+          <h2 id="hardSkill7" class="hardSkills">HardSkill 7:</h2>
+
+          <input class="valorHardSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="hardGrafico" id="hardGraf7">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="hardSkillsGrupo">
+          <h2 id="hardSkill8" class="hardSkills">HardSkill 8:</h2>
+
+          <input class="valorHardSkill" type="number"  value="0" maxlength="1"
+          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+
+          <div class="hardGrafico" id="hardGraf8">
+            <h2></h2>
+          </div>
+        </div>
+
+    </div>
+  </body>
+  <script type="text/javascript" src="js/script.js"></script>
+</html>

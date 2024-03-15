@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root{
+  --soft-color1: #ff5959;
+  --soft-color2: #f5ac78;
+  --soft-color3: #fae078;
+  --soft-color4: #9db7f5;
+  --soft-color5: #a7db8d;
+  --soft-color6: #fa92b2;
+
+  --hard-color1: #f6975c;
+  --hard-color2: #faca5b;
+  --hard-color3: #f7ef5c;
+  --hard-color4: #87c455;
+  --hard-color5: #41c1d8;
+  --hard-color6: #4a77b6;
+  --hard-color7: #864e9e;
+  --hard-color8: #ee4f85;
+
+}
+
+body{
+  background-color: #ccc;
+}
+#botaoAdicionar{
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: #454545;
+  border-radius: 15px;
+  display: none;
+}
+#botaoAdicionar:hover{
+  cursor: pointer;
+  opacity: 50%;
+}
+#botaoAdicionar:active{
+  cursor: pointer;
+  opacity: 50%;
+}
+#cabecalho{
+  background-color: #2b2b2b;
+  height: 40px;
+  width: 500px;
+  border-radius: 20px 20px 0 0;
+  display: inline-block;
+}
+#botaoFechar{
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 93%;
+}
+#botaoFechar:hover{
+  cursor: pointer;
+  opacity: 50%;
+}
+#botaoFechar:active{
+  cursor: pointer;
+  opacity: 50%;
+}
+#ficha{
+  background-color: #454545;
+  height: 965px;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px #757575;
+}
+#nome{
+  margin-top: 20px;
+  color: white;
+  margin-left: 25px;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 30px;
+}
+#cargo{
+  margin-left: 25px;
+  margin-top: 20px;
+  color: #ffde7d;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 15px;
+}
+.titulos{
+  margin-top: 20px;
+  color: white;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* --- INPUT FOTO ---*/
+
+#campoFoto{
+  background-color: #3b3b3b;
+  width: 150px;
+  height: 150px;
+  margin: 20px 20px 0px 25px;
+  border-top: solid 5px #212121;
+  border-left: solid 5px #212121;
+  border-right: solid 5px #767676;
+  border-bottom: solid 5px #767676;
+  display: inline-block;
+  text-align: center;
+}
+#picture__input{
+  display: none;
+}
+.picture{
+  height: 150px;
+  width: 150px;
+  background-color: #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 25px;
+  color: black;
+}
+
+.picture:hover{
+  color: white;
+  background-color: #aaa;
+}
+.picture:active{
+  background-color: #3b3b3b;
+}
+
+.picture__img{
+  width: 150px;
+  height: 150px;
+  display: inline:block;
+}
+
+/* --- INPUT NOME E CARGO --- */
+
+#inputNome{
+  height: 25px;
+  width: 255px;
+  position: absolute;
+  margin-top: 60px;
+}
+
+#inputCargo{
+  height: 25px;
+  width: 255px;
+  position: absolute;
+  margin-top: 100px;
+}
+input{
+  display: inline-block;
+  background-color: #3b3b3b;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* --- RETIRAR BARRA DE NÚMEROS LATERAL --- */
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+#softSkills{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.softSkills, .hardSkills{
+  display: inline-block;
+  margin: 0 0 0 0px;
+  padding: 0;
+  line-height: 30px;
+  height: 25px;
+  font-size: 11px;
+  width: 132px;
+}
+.softSkillsGrupo{
+  font-family: "Press Start 2P", system-ui;
+  font-size: 11px;
+}
+#softSkill1{
+  color: var(--soft-color1);
+  margin-top: 10px;
+}
+#softSkill2{
+  color: var(--soft-color2);
+  margin-top: 10px;
+}
+#softSkill3{
+  color: var(--soft-color3);
+  margin-top: 10px;
+}
+#softSkill4{
+  color: var(--soft-color4);
+  margin-top: 10px;
+}
+#softSkill5{
+  color: var(--soft-color5);
+  margin-top: 10px;
+}
+#softSkill6{
+  color: var(--soft-color6);
+  margin-top: 10px;
+}
+.softSkillsGrupo input{
+  height: 20px;
+  width: 20px;
+}
+.valorSoftSkill, .valorHardSkill{
+  position: absolute;
+  margin-top: 5px;
+}
+
+/* --- GRÁFICOS --- */
+
+.softGrafico, .hardGrafico{
+  width: 50px;
+  height: 26px;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#softGraf1{
+  background-color: var(--soft-color1);
+}
+#softGraf2{
+  background-color: var(--soft-color2);
+}
+#softGraf3{
+  background-color: var(--soft-color3);
+}
+#softGraf4{
+  background-color: var(--soft-color4);
+}
+#softGraf5{
+  background-color: var(--soft-color5);
+}
+#softGraf6{
+  background-color: var(--soft-color6);
+}
+
+hr{
+  margin: 20px;
+}
+
+#hardSkills{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.hardSkillsGrupo{
+  font-family: "Press Start 2P", system-ui;
+  font-size: 11px;
+}
+
+.hardSkillsGrupo input{
+  height: 20px;
+  width: 20px;
+}
+
+#hardSkill1{
+  color: var(--hard-color1);
+  margin-top: 10px;
+}
+#hardSkill2{
+  color: var(--hard-color2);
+  margin-top: 10px;
+}
+#hardSkill3{
+  color: var(--hard-color3);
+  margin-top: 10px;
+}
+#hardSkill4{
+  color: var(--hard-color4);
+  margin-top: 10px;
+}
+#hardSkill5{
+  color: var(--hard-color5);
+  margin-top: 10px;
+}
+#hardSkill6{
+  color: var(--hard-color6);
+  margin-top: 10px;
+}
+#hardSkill7{
+  color: var(--hard-color7);
+  margin-top: 10px;
+}
+#hardSkill8{
+  color: var(--hard-color8);
+  margin-top: 10px;
+}
+
+#hardGraf1{
+  background-color: var(--hard-color1);
+}
+#hardGraf2{
+  background-color: var(--hard-color2);
+}
+#hardGraf3{
+  background-color: var(--hard-color3);
+}
+#hardGraf4{
+  background-color: var(--hard-color4);
+}
+#hardGraf5{
+  background-color: var(--hard-color5);
+}
+#hardGraf6{
+  background-color: var(--hard-color6);
+}
+#hardGraf7{
+  background-color: var(--hard-color7);
+}
+#hardGraf8{
+  background-color: var(--hard-color8);
+}
