@@ -21,6 +21,9 @@
 
 body{
   background-color: #ccc;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 #botaoAdicionar{
   width: 40px;
@@ -65,6 +68,8 @@ body{
   width: 500px;
   border-radius: 20px;
   box-shadow: 8px 8px 8px #757575;
+  margin: 10px;
+  max-width: 500px;
 }
 #nome{
   margin-top: 20px;
