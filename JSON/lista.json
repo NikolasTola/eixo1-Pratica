@@ -1,0 +1,69 @@
+[
+  {
+    "nome": "Brenda Estefany Drumond",
+    "cargo": "Astronauta",
+
+    "softSkill1": 8,
+    "softSkill2": 1,
+    "softSkill3": 3,
+    "softSkill4": 6,
+    "softSkill5": 2,
+    "softSkill6": 8
+  },
+  {
+    "nome": "Catiane de Souza Pereira",
+    "cargo": "Bombeiro",
+
+    "softSkill1": 9,
+    "softSkill2": 3,
+    "softSkill3": 1,
+    "softSkill4": 5,
+    "softSkill5": 7,
+    "softSkill6": 2
+  },
+  {
+    "nome": "Diego da Silva Leal",
+    "cargo": "Pintor",
+
+    "softSkill1": 3,
+    "softSkill2": 7,
+    "softSkill3": 8,
+    "softSkill4": 0,
+    "softSkill5": 2,
+    "softSkill6": 4
+  },
+  {
+    "nome": "Kayque Gabriel Fonseca",
+    "cargo": "Paleontólogo",
+
+    "softSkill1": 4,
+    "softSkill2": 8,
+    "softSkill3": 0,
+    "softSkill4": 1,
+    "softSkill5": 3,
+    "softSkill6": 6
+  },
+  {
+    "nome": "Matheus Guimaraes de Carvalho",
+    "cargo": "Cozinheiro",
+
+    "softSkill1": 0,
+    "softSkill2": 8,
+    "softSkill3": 1,
+    "softSkill4": 7,
+    "softSkill5": 3,
+    "softSkill6": 6
+  },
+  {
+    "nome": "Nikolas Victor Mota",
+    "cargo": "Escritor",
+
+    "softSkill1": 1,
+    "softSkill2": 3,
+    "softSkill3": 5,
+    "softSkill4": 2,
+    "softSkill5": 0,
+    "softSkill6": 4
+  }
+
+]

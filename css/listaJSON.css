@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* -- HEADER -- */
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  background-color: #454545;
+  box-shadow: 0px 3px 10px #757575;
+  font-family: "Press Start 2P", system-ui;
+}
+#navBar{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+#logo{
+  display: flex;
+  align-items: center;
+  user-select:none;
+}
+#logo h1{
+  color: white;
+}
+#navList{
+  display: flex;
+  align-items: center; 
+}
+#navList ul{
+  display: flex;
+  justify-content: flex;
+  list-style: none;
+}
+.navItem{
+  margin: 0 25px;
+}
+.navLink{
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #4f99d1;
+  font-weight: 4000;
+  user-select:none;
+}
+.navLink:hover{
+  color: #84c1f0;
+  user-select:none;
+}
+#login{
+  color: #4f99d1;
+  user-select:none;
+  text-decoration: none;
+  font-size: 20px;
+}
+#linkLogin{
+  display: flex;
+  align-items: center;
+  user-select:none;
+}
+#login:hover{
+  color: #84c1f0;
+  user-select:none;
+}
+
+#login:active{
+  color: #205379;
+  user-select:none;
+}
+
+/* ---------------------*/
+
+#container{
+  margin-top: 50px;
+  margin-left: 5px;
+}
+.card h3{
+  color: #f8f8f8;
+  margin-left: 15px;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.card h4{
+  color: #f7f3a1;
+  margin-left: 15px;
+  font-family: "Press Start 2P", system-ui;
+}
+
+.card{
+  border: 1px solid black;
+  width: 50%;
+  margin-bottom: 3px;
+  padding-bottom: 10px;
+  background-color: #454545;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.card:hover{
+  background-color: #6b6b6b;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+.skills span{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: "Press Start 2P", system-ui;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+span p{
+  font-size: 20px;
+}
+
+#skill1{
+  background-color: #ff5959;
+}
+#skill2{
+  background-color: #f5ac78;
+}
+
+#skill3{
+  background-color: #fae078;
+}
+
+#skill4{
+  background-color: #9db7f5;
+}
+
+#skill5{
+  background-color: #a7db8d;
+}
+
+#skill6{
+  background-color:  #fa92b2;
+}
+

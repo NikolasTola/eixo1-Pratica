@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <header>
+        <nav id="navBar">
+          <div id="logo">
+            <h1>Logo</h1>
+          </div>
+  
+          <div id="navList">
+            <ul>
+              <li class="navItem"><a href="cadastro.html" class="navLink">Cadastro</a></li>
+              <li class="navItem"><a href="index.html" class="navLink">Ficha</a></li>
+              <li class="navItem"><a href="listaJSON.html" class="navLink">Lista</a></li>
+            </ul>
+          </div>
+  
+          <div id="linkLogin">
+             <a id="login" href="loginScreen.html">Login</a>         
+          </div>
+  
+        </nav>
+    </header>
+    
+    <nav id="janela">
+
+        <div id="cabecalho"></div>
+
+        <div id="ficha">
+            <div id="titulo"><h1>Cadastro de funcionário</h1></div>
+            <div id="form">
+                <h4>Nome</h4>
+                <input class="inputCargoNome" type="text" id="inputNome">
+                <h4>Cargo</h4>
+                <input class="inputCargoNome" type="text" id="inputCargo">
+            </div>
+
+            <h2>Soft Skills</h2>
+
+            <div class="skills">
+
+
+                <span class="softSkills">
+                    <h4 id="softSkill1">Comunicação</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+
+                <span class="softSkills">
+                    <h4 id="softSkill2">Foco</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+                <span class="softSkills">
+                    <h4 id="softSkill3">Força</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+                <span class="softSkills">
+                    <h4 id="softSkill4">Fé</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+                <span class="softSkills">
+                    <h4 id="softSkill5">Humor</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+                <span class="softSkills">
+                    <h4 id="softSkill6">Pontual</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+
+            </div>
+
+            <hr>
+
+            <h2>Hard Skills</h2>
+            
+            <div class="skills">
+
+                <span class="hardSkills">
+                    <h4>hardSkill1</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+
+                <span class="hardSkills">
+                    <h4>hardSkill2</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+                <span class="hardSkills">
+                    <h4>hardSkill3</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+                <span class="hardSkills">
+                    <h4>hardSkill4</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+                <span class="hardSkills">
+                    <h4>hardSkill5</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+                <span class="hardSkills">
+                    <h4>hardSkill6</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+                <span class="hardSkills">
+                    <h4>hardSkill7</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+                <span class="hardSkills">
+                    <h4>hardSkill8</h4>
+                    <input class="inputSkills" type="number" maxlength="1">
+                </span>
+
+            </div>
+
+            <div id="divCadastro">
+                <h2>NI</h2>
+                <h2 id="valorNI">000000</h2>
+            </div>
+
+            <button id="botaoNI">Gerar NI</button>
+            <br>
+            <br>
+            <button id="botaoCadastrar">Cadastrar</button>
+            
+            <div id="divErro">
+                <h3 id="erro">Campo de Erro</h3>
+            </div>
+
+        </div>
+
+    </nav>
+    <script type="text/javascript" src="js/cadastro.js"></script>
+</body>
+</html>

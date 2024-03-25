@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body{
+    background-color: #d5d5d5;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+}
+
+/* -- HEADER -- */
+
+header{
+    background-color: #454545;
+    box-shadow: 0px 3px 10px #757575;
+    font-family: "Press Start 2P", system-ui;
+  }
+  #navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+  }
+  #logo{
+    display: flex;
+    align-items: center;
+    user-select:none;
+  }
+  #logo h1{
+    color: white;
+  }
+  #navList{
+    display: flex;
+    align-items: center; 
+  }
+  #navList ul{
+    display: flex;
+    justify-content: flex;
+    list-style: none;
+  }
+  .navItem{
+    margin: 0 25px;
+  }
+  .navLink{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #4f99d1;
+    font-weight: 4000;
+    user-select:none;
+  }
+  .navLink:hover{
+    color: #84c1f0;
+    user-select:none;
+  }
+  #login{
+    color: #4f99d1;
+    user-select:none;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  #linkLogin{
+    display: flex;
+    align-items: center;
+    user-select:none;
+  }
+  #login:hover{
+    color: #84c1f0;
+    user-select:none;
+  }
+  
+  #login:active{
+    color: #205379;
+    user-select:none;
+  }
+  
+  /* ---------------------*/
+
+#janela{
+    margin: 30px;
+}
+#ficha{
+    background-color: #454545;
+    max-width: 800px;
+    height: 1700px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px #757575;
+    font-family: "Press Start 2P", system-ui;
+    border-radius: 0 0 20px 20px;
+    margin: 0;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cabecalho{
+    background-color: #2b2b2b;
+    height: 40px;
+    width: 800px;
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+}
+
+.inputCargoNome{
+    width: 420px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 13px;
+    background-color: white;
+    user-select:none;
+    margin-top: -10px;
+}
+h4{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inputSkills{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+ }
+
+span{
+    text-align: center;
+    width: 230px;
+    height: 135px;
+}
+
+hr{
+    width: 760px;
+    margin: 30px 0 30px 0;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+#form{
+    margin-bottom: 30px;
+}
+
+#divCadastro{
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+button{
+    background-color: #4f99d1;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 160px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Press Start 2P", system-ui;
+    user-select:none;
+}
+button:disabled{
+    background-color: #ccc;
+    cursor: not-allowed; 
+}
+
+button:disabled:hover{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+button:hover, button:active  {
+    background-color: #84c1f0;
+    user-select:none;
+  }
+
+#divErro{
+    margin: 30px 0 30px 0;
+    color: white;
+}
+#erro{
+    visibility: hidden;
+}
+
+#softSkill1{
+    color: #ff5959;
+}
+#softSkill2{
+    color: #f5ac78;
+}
+#softSkill3{
+    color: #fae078;
+}
+#softSkill4{
+    color: #9db7f5;
+}
+#softSkill5{
+    color: #a7db8d;
+}
+#softSkill6{
+    color: #fa92b2;
+}
