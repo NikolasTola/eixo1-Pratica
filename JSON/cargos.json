@@ -1,0 +1,40 @@
+[
+    {
+        "cargo": "Desenvolvedor",
+
+        "HS1":{"nome": "JavaScript", "valor": 0},
+        "HS2":{"nome": "SQL", "valor": 0},
+        "HS3":{"nome": "Python", "valor": 0},
+        "HS4":{"nome": "Java", "valor": 0},
+        "HS5":{"nome": "TypeScript", "valor": 0},
+        "HS6":{"nome": "Bash", "valor": 0},
+        "HS7":{"nome": "C#", "valor": 0},
+        "HS8":{"nome": "PHP", "valor": 0}
+    },
+    {
+        "cargo": "Design",
+
+        "HS1":{"nome": "Photoshop", "valor": 0},
+        "HS2":{"nome": "Illustrator", "valor": 0},
+        "HS3":{"nome": "Affinity", "valor": 0},
+        "HS4":{"nome": "Procreate", "valor": 0},
+        "HS5":{"nome": "CorelDRAW", "valor": 0},
+        "HS6":{"nome": "Figma", "valor": 0},
+        "HS7":{"nome": "Sketch", "valor": 0},
+        "HS8":{"nome": "AdobeXD", "valor": 0}
+
+    },
+    {
+        "cargo": "Jogador de Futebol",
+
+        "HS1":{"nome": "Lateral D", "valor": 0},
+        "HS2":{"nome": "Lateral E", "valor": 0},
+        "HS3":{"nome": "Meio campo", "valor": 0},
+        "HS4":{"nome": "Zagueiro", "valor": 0},
+        "HS5":{"nome": "Atacante", "valor": 0},
+        "HS6":{"nome": "Passe", "valor": 0},
+        "HS7":{"nome": "Falta", "valor": 0},
+        "HS8":{"nome": "Cruzamento", "valor": 0}
+
+    }
+]

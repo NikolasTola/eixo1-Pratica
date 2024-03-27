@@ -3,7 +3,7 @@ function  carregarJSON(){
     .then(response => response.json())
     .then(pessoas => {
       const container = document.querySelector("#container");
-      
+      console.log(pessoas[0].nome);
       pessoas.map(pessoa => {
         const nome = document.createElement("h3");
         const cargo = document.createElement("h4");

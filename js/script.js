@@ -93,9 +93,9 @@ pictureImage.innerHTML = pictureImageTxt;
 
 inputFile.addEventListener('change', function(e){
   const inputTarget = e.target;
-  console.log(inputTarget);
+
   const file = inputTarget.files[0];
-  console.log(file);
+ 
 
 
   if(file){
