@@ -83,11 +83,12 @@ header{
 }
 h3{
   color: white;
+  margin:.83em;
 }
 #ficha{
     background-color: #454545;
     max-width: 660px;
-    height: 1675px;
+    height: 1625px;
     margin: 10px;
     border-radius: 20px;
     box-shadow: 8px 8px 8px #757575;
@@ -130,9 +131,12 @@ h3{
   padding: 30px;
 }
 h4{
-    margin-top: 40px;
+    margin-right: 0;
     font-size: 20px;
     display: inline-block;
+}
+h2{
+  margin: .75em;
 }
 
 .skills{
