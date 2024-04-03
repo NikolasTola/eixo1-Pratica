@@ -18,7 +18,9 @@
   --hard-color8: #ee4f85;
 
 }
-
+*{
+  margin: 0;
+}
 /*TESTE*/
 body{
   background-color: #ccc;

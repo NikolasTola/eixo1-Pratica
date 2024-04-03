@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-color: #d5d5d5;
+}
+
+/* -- HEADER -- */
+
+header{
+    background-color: #454545;
+    box-shadow: 0px 3px 10px #757575;
+    font-family: "Press Start 2P", system-ui;
+  }
+  #navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+  }
+  #logo{
+    display: flex;
+    align-items: center;
+    user-select:none;
+  }
+  #logo h1{
+    color: white;
+  }
+  #navList{
+    display: flex;
+    align-items: center; 
+  }
+  #navList ul{
+    display: flex;
+    justify-content: flex;
+    list-style: none;
+  }
+  .navItem{
+    margin: 0 25px;
+  }
+  .navLink{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #4f99d1;
+    font-weight: 4000;
+    user-select:none;
+  }
+  .navLink:hover{
+    color: #84c1f0;
+    user-select:none;
+  }
+  #login{
+    color: #4f99d1;
+    user-select:none;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  #linkLogin{
+    display: flex;
+    align-items: center;
+    user-select:none;
+  }
+  #login:hover{
+    color: #84c1f0;
+    user-select:none;
+  }
+  
+  #login:active{
+    color: #205379;
+    user-select:none;
+  }
+  
+  /* ---------------------*/
+  
+
+.botaoCriarProjeto{
+    background-color: #4f99d1;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 230px;
+    line-height: 20px;
+    margin: 10px 0 0 10px;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Press Start 2P", system-ui;
+    user-select:none;
+}
+.botaoCriarProjeto:hover,.botaoCriarProjeto:active  {
+    background-color: #84c1f0;
+    user-select:none;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    background-color: #454545;
+    color: white;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: "Press Start 2P", system-ui;
+}
+.card:hover{
+    background-color: #6b6b6b;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    cursor: pointer;
+}
+.card:active{
+    background-color: #303030;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    cursor: pointer;
+}
+.imagemCard{
+    width: 200px;
+    aspect-ratio: 16/9;
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card h5{
+    font-size: 12px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+.card p{
+    font-size: 12px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#divCards{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+#cabecalhoModal{
+  background-color: #2b2b2b;
+  height: 40px;
+  width: 440px;
+  border-radius: 20px 20px 0 0;
+  display: inline-block;
+  margin-bottom: -4px;
+}
+
+.modalContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press Start 2P", system-ui;   
+}
+.modalContainer h2{
+    font-size: 20px;
+}
+.modalContainer h4{
+    font-size: 13px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+#modal{
+    background-color: #454545;
+    width: 400px;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    margin-top: 0;
+}
+.inputsModal{
+    display: flex;
+    align-items: center;
+}
+#inputProjeto{
+    width: 350px;
+    height: 20px;
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+    border-radius: 5px;
+}
+#inputDescricao{
+    width: 350px;
+    height: 40px;
+    font-family: "Press Start 2P", system-ui;
+    padding: 5px;
+    border-radius: 5px;
+}
+#imagemModalInput{
+    display: none;
+}
+.imagemModal{
+    width: 200px;
+    aspect-ratio: 16/9;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    border: 2px dashed currentColor;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.imagemModal:hover, .imagemModal:focus{
+    color: #777;
+    background-color: #ccc;
+}
+.imagemModal:active{
+    color: #4b4b4b;
+    background-color: #8d8c8c;
+}
+
+.imagemAtualModal{
+    width: 200px;
+    aspect-ratio: 16/9;
+}
+
+#botaoCriarModal{
+    background-color: #4f99d1;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 153px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Press Start 2P", system-ui;
+    user-select:none;
+  }
+#botaoCriarModal:hover,#botaoCriarModal:active  {
+    background-color: #84c1f0;
+    user-select:none;
+}
+#botaoFecharModal{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 93%;
+  }
+  #botaoFecharModal:hover{
+    cursor: pointer;
+    opacity: 50%;
+  }
+  #botaoFecharModal:active{
+    cursor: pointer;
+    opacity: 50%;
+  }
+.modalComCabecalho{
+    position: fixed;
+    display: none;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+}
+.modalOverlay{
+    background-color: rgba(148, 148, 148, 0.6);
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: 998;
+    display:none;
+}
+.active{
+    display: block;
+}
+.erroModal{
+    margin: 20px 0 0 10px;
+    color: red;
+    visibility: hidden;
+}

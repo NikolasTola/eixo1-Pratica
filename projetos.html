@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/projetos.css">
+    <title>Projetos</title>
+</head>
+<body>
+
+    <header>
+        <nav id="navBar">
+          <div id="logo">
+            <h1>GameOfWork</h1>
+          </div>
+  
+          <div id="navList">
+            <ul>
+              <li class="navItem"><a href="cadastro.html" class="navLink">Cadastro</a></li>
+              <li class="navItem"><a href="index.html" class="navLink">Ficha</a></li>
+              <li class="navItem"><a href="listaJSON.html" class="navLink">Lista</a></li>
+              <li class="navItem"><a href="projetos.html" class="navLink">Projetos</a></li>
+            </ul>
+          </div>
+  
+          <div id="linkLogin">
+             <a id="login" href="loginScreen.html">Login</a>         
+          </div>
+  
+        </nav>
+    </header>
+
+    <button class="botaoCriarProjeto">Criar projeto</button>
+    
+    <div id="divCards">
+        <div class="card">
+            <img src="Imagens/imagemTeste1.jpg" class="imagemCard"alt="">
+            <h5>Projeto 1</h5>
+            <p>
+                AAAAAAAAAAAAAAAA
+                AAAAAAAAAAAAAAAA
+                AAAAAAAAAAAAAAAA
+                AAAAAAAAAAAAAAAA
+                AAAAAAAAAAAAAAAA
+            </p>
+        </div>
+        <div class="card">
+            <img src="Imagens/imagemTeste2.jpg" class="imagemCard"alt="">
+            <h5>Projeto 2</h5>
+            <p>Descrição</p>
+        </div>
+        <div class="card">
+            <img src="Imagens/imagemPadrao.png" class="imagemCard"alt="">
+            <h5>Projeto 3</h5>
+            <p>Descrição</p>
+        </div>
+    </div>
+
+
+    <div class="modalOverlay">
+    </div>
+
+    <div class="modalComCabecalho">
+        <div id="cabecalhoModal"><img src="icones/close.png" id="botaoFecharModal" draggable=false alt=""></div>
+        <div id="modal">
+            <div class="modalContainer">
+
+                <h2>Titulo</h2>
+                <br>
+                <div id="inputsModal">
+                    <div class="inputProjeto">
+                        <h4>Projeto</h4>
+                        <input id="inputProjeto" maxlength="16" type="text">
+                    </div>
+                    <br>
+                    <div class="inputDescricao">
+                        <h4>Descrição</h4>
+                        <Textarea maxlength="64" id="inputDescricao"></Textarea>
+                    </div>
+                    <br>
+                    <label class="imagemModal" tabindex="0">
+                        <input type="file" accept="image/*" id="imagemModalInput"/>
+                        <span class="imagemModalSpan"></span>
+                    </label>
+                    
+                </div>
+                <br>
+                <button id="botaoCriarModal">Criar</button>
+                <h3 class="erroModal">ERRO</h3>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="js/projetos.js"></script>
+</html>

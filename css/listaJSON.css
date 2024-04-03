@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/* -- HEADER -- */
 
+*{
+  margin: 0;
+}
 body{
   padding: 0;
   margin: 0;
 }
+
+/* -- HEADER -- */
 
 header{
   background-color: #454545;
@@ -79,12 +83,14 @@ header{
   color: #f8f8f8;
   margin-left: 15px;
   font-family: "Press Start 2P", system-ui;
+  margin: 1.17em;
 }
 
 .card h4{
   color: #f7f3a1;
   margin-left: 15px;
   font-family: "Press Start 2P", system-ui;
+  margin: 1.17em;
 }
 
 .card{
