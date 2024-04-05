@@ -125,10 +125,17 @@ h3{
     user-select:none;
     margin-top: -10px;
 }
+.inputCargo{
+
+
+}
+#opcao{
+  color: white;
+  background-color: black;
+}
 .opcoesCargo{
-  position: absolute;
   color: red;
-  padding: 30px;
+  width: 500px;
 }
 h4{
     margin-right: 0;

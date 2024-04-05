@@ -108,6 +108,8 @@ header{
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-family: "Press Start 2P", system-ui;
+    display: flex;
+    flex-direction: column;
 }
 .card:hover{
     background-color: #6b6b6b;
@@ -129,14 +131,15 @@ header{
     margin-bottom: 10px;
 }
 .card h5{
-    font-size: 12px;
+    font-size: 13px;
     margin-left: 3px;
     margin-bottom: 5px;
 }
 .card p{
     font-size: 12px;
-    margin-left: 3px;
+    margin-left: 4px;
     margin-right: 3px;
+    text-align: justify;
 }
 #divCards{
     width: 60%;
